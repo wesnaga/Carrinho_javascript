@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;    
+    border-bottom: 1px solid #ccc;
+}
+
+.header .logo {
+    width: 150px;
+}
+
+.carrinhoIcon{
+    right: 0;
+    position: absolute;
+    margin: 0px 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 62px;
+    width: 47px;
+}
+
+.esvaziarCarrinho:hover {
+    right: 0;
+    position: absolute;
+    margin: 38px 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #fff;
+    padding: 4px;
+    background: #02a14d;
+    cursor: pointer;
+}
+
+.esvaziarCarrinho {
+    right: 0;
+    position: absolute;
+    margin: 38px 6px;
+    border: 1px solid #02a14d;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #02a14d;
+    padding: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.carrinho{
+    background-image:("../img/cart_icon.jpg");
+}
+
+.carrinho img {
+    width: 100%;
+}
+
+#produtosView{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+    min-height: 75%;
+    background: url(https://elevenchimps.com.br/assets/imgs/header-desktop-petiscos.jpg);
+    background-repeat: no-repeat;
+    background-origin: initial;
+    background-size: cover;
+}
+
+.product{
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #8cbf3aCC;
+    background: #ffffffcc;
+    box-shadow: 0px 0px 10px 5px #888888;
+}
+
+.product img{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.product h2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.product p {
+    text-align: center;
+}
+
+.product .desc {
+    overflow: hidden;
+    max-height: 108px;
+    padding: 0px 10px;
+}
+
+.product button {
+    background: #8cbf3aCC;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.product button:hover{
+    background: #8cbf3a;
+}
+
+div#TotalCarrinho{
+    color: #fff;
+    background: #02a14d;
+    border: 1px solid;
+    float: right;
+    border-radius: 50%;
+    text-align: center;
+    width: 19px;
+    position: absolute;
+    margin: 8px 28px;
+    bottom: 0;
+}
+
+
+/*Carrinho*/
+
+#carrinhoView{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+}
+
+.carrinhoProduct {
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
+    background: url(https://elevenchimps.com.br/assets/imgs/header-desktop-puppy.jpg);
+    background-repeat: no-repeat;
+    background-origin: initial;
+    background-size: cover;
+}
+
+.carrinhoItem{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #ffffffcc;
+    box-shadow: 0px 0px 10px 5px #888888;
+}
+
+.carrinhoItem .b1{
+    text-align: center;
+}
+
+.carrinhoItem h2{
+    width: 100%;
+    text-align: center;
+}
+
+.carrinhoItem div {
+    width: 45%;
+    margin: 10px;
+}
+
+.carrinhoItem div img{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+}
+
+.qtdProdutos{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.qtdProdutos button {
+    margin: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px;
+    color: #02a14d;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #02a14d;
+}
+
+.qtdProdutos button:hover {
+    margin: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #02a14d;
+}
+
+footer{
+    background: #21314c;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}

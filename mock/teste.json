@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Combo Sênior Grain Free",
+    "id": "COMBO0012",
+    "description": "Uma opção para alternar as Dietas Sênior Grain Free Carne e Frango. Ofereça ao seu filhote o poder da alimentação natural aliada à suplementação, uma alternativa segura para uso contínuo à ração.",
+    "kgPerUnit": 0.245,
+    "priceInCentsPerKg": 2959,
+    "type": "COMBO",
+    "pic": "https://s3.amazonaws.com/elevenchimpsapp/jungle/10414/10414_Carrinho_x1.png"
+  },
+  {
+    "name": "Dieta Sênior Grain Free Frango",
+    "id": "265",
+    "description": "A Dieta Sênior Grain Free é uma alimentação natural suplementada de mais fácil digestão livre de grãos e com maior quantidade de proteínas de alto valor biológico na sua composição para cães. Rica em antioxidantes naturais para uma vida longa e envelhecimento saudável, foi desenvolvida para fornecer  ácidos graxos poli-insaturados de cadeia longa, reconhecidos por suas qualidades anti-inflamatórias e propriedades antioxidantes, não somente os nutrientes essenciais.",
+    "kgPerUnit": 0.25,
+    "priceInCentsPerKg": 2355,
+    "type": "PRODUCT",
+    "pic": "https://s3.amazonaws.com/elevenchimpsapp/jungle/10424/10424_Carrinho_x1.png"
+  },
+  {
+    "name": "Dieta Sênior Grain Free Carne",
+    "id": "264",
+    "description": "A Dieta Sênior Grain Free Carne é rica em antioxidantes naturais para uma vida longa e envelhecimento saudável. livre de grãos e maior quantidade de proteínas de alto valor biológico na sua composição. Sua fórmula também integra fontes especiais de carboidratos e lipídios de fácil assimilação. Foi desenvolvida para fornecer  ácidos graxos poli-insaturados de cadeia longa, reconhecidos por suas qualidades anti-inflamatórias e propriedades antioxidantes, não somente os nutrientes essenciais.",
+    "kgPerUnit": 0.24,
+    "priceInCentsPerKg": 2476,
+    "type": "PRODUCT",
+    "pic": "https://s3.amazonaws.com/elevenchimpsapp/jungle/10414/10414_Carrinho_x1.png"
+  },
+  {
+    "name": "Combo Filhote Frango",
+    "id": "COMBO0002",
+    "description": "Uma opção para alternar as Dietas Filhote Frango e Filhote Grain Free Frango. Ofereça ao seu filhote o poder da alimentação natural aliada à suplementação, uma alternativa segura para uso contínuo à ração.",
+    "kgPerUnit": 0.23,
+    "priceInCentsPerKg": 2835,
+    "type": "COMBO",
+    "pic": "https://s3.amazonaws.com/elevenchimpsapp/jungle/10121/10121_Carrinho_x1.png"
+  },
+  {
+    "name": "Combo Adulto Grain Free",
+    "id": "COMBO0006",
+    "description": "Uma opção para alternar as Dietas Adulto Grain Free Carne e Frango. Ofereça ao seu filhote o poder da alimentação natural aliada à suplementação, uma alternativa segura para uso contínuo à ração.",
+    "kgPerUnit": 0.235,
+    "priceInCentsPerKg": 2946,
+    "type": "COMBO",
+    "pic": "https://s3.amazonaws.com/elevenchimpsapp/jungle/10314/10314_Carrinho_x1.png"
+  }
+]

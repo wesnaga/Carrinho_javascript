@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/"><img class="logo" src="../img/logo.jpg" alt=""></a>            
+        <div class="carrinhoIcon">
+            <a class="carrinho" href="carrinho.html">
+                <img src="../img/cart_icon.jpg" alt="">
+            </a>                
+            <div id="TotalCarrinho">0</div>            
+        </div>  
+        <button class="esvaziarCarrinho" type="submit" onclick='carrinhoController.limpar()'>Esvaziar Carrinho</button>
+    </header>
+   
+
+    <div id="carrinhoView"></div>
+    <footer>
+
+    </footer>
+</body>
+    <script src="js/controller/CarrinhoController.js"></script>   
+    <script src="js/service/CarrinhoService.js"></script>
+    <script src="js/model/ListarCarrinho.js"></script>
+    <script src="js/view/carrinho.View.js"></script>
+    <script>
+        let carrinhoController = new CarrinhoController();
+    </script>
+</html>
